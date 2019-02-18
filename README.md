@@ -16,10 +16,6 @@ This is a Windows application that displays real time data from serial port. The
 - Exports to CSV
 - Autoscale to visible graph
 
-## Screenshot
-
-![Serial Port Plotter screenshot](res/screen_0.png)
-
 ## How to use the application
 
 Just send your integer data over the serial port. The application expects certain format so it can differentiate between values. Each message you send must start with '$' and end with ';' (semi-colon) and the integers inside need to be space-separated. The Help button displays comprehensive instructions.
@@ -31,8 +27,6 @@ When stopped/paused, plot area can be dragged and file saving can be enabled.
 To enable the file saving, click on the document button before starting the plot.
 
 Double click on a channel in the Graph Control panel to hide/show a specific channel.
-
-![File Save Button](res/screen_1.png)
 
 ## Send data over the serial port
 
